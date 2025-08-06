@@ -18,8 +18,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Port configuration (default 3001)
-const PORT = parseInt(process.env.PORT || "3001", 10);
+// Port configuration (default 80)
+const PORT = parseInt(process.env.PORT || "80", 10);
 
 // In-memory storage for frontend articles
 const allArticles = [];
