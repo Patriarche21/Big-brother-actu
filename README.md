@@ -1,9 +1,14 @@
-# BigBro Project
+# BigBro Project - Big Brother Actu
 
 ## Description
-Application de surveillance et d'analyse de contenu avec :
-- Backend Node.js
-- Frontend React/Vite
+Application de veille médiatique et analyse d'actualités avec :
+- Backend Node.js (scraping et analyse)
+- Frontend React/Vite (visualisation)
+
+Fonctionnalités principales :
+- Scraping de sites d'actualités
+- Analyse de tendances
+- Tableau de bord de visualisation
 
 ## Installation
 
@@ -41,5 +46,5 @@ npm run dev
 ```
 
 ## Structure du projet
-- `backend/` : Serveur Node.js
-- `frontend/` : Application React/Vite
+- `backend/` : Serveur Node.js (scraping et analyse)
+- `frontend/` : Application React/Vite (tableau de bord)
